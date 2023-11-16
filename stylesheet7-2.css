@@ -1,14 +1,17 @@
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(252, 245, 245);
     font-weight: bold;
-    padding-right: 50px;
+    padding-left: 50px;
+}
+
+h3{
+    padding-left: 100px;
 }
 
 header {
-    background: white url(./images/backgroundheader.jpeg);
-    background-position: center;
-    background-color: hsla(9, 5%, 48%, 0.856);
-    padding: 0%; 
+    background: white url(./images/hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
@@ -20,6 +23,7 @@ body {
 .headings {
     color: rgb(41, 223, 24);
     font-weight: bold;
+    padding:0px 100px 0px 100px; 
 }
 
 .menu {
@@ -29,23 +33,46 @@ body {
     width: 100px;
 }
 
-.picture {
+ .picture {
     border-radius: 50%;
 
-}
+} */
 
-img {
-    padding: 0%; 
-    margin-left: 0%;
+/* img {
+    width: 25%;
+    height: auto;
 }
+ */
 
-p {
-    padding: 200px;
-    padding-top: 0%;
-    padding-bottom: 0%;
-}
+    /* @media only screen and (min-width: 768px) { */
+        /* img {
+            width: 50%;
+            height: auto;
+        } */
+
+
 section {
     padding: 15%; 
     padding-top: 0%;
     padding-bottom: 5%;
+}
+
+.text {
+    color: rgb(252, 245, 245);
+    text-align: center;
+    min-width: 150;
+    padding:0px 100px 0px 100px; 
+}
+
+p {
+    padding:0px 200px 0px 200px; 
+
+}
+
+#skill {
+    padding-left: 100px;
+}
+
+footer {
+    padding:0px 100px 0px 100px; 
 }
